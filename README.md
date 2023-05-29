@@ -16,15 +16,15 @@ python3 -m venv myenv
 myenv\Scripts\activate
 ```
 5. Download [CMake](https://cmake.org/download/) to ensure that all dependecies will work as expected.
-5. Install the project dependencies by running the following command:
+6. Install the project dependencies by running the following command:
 ```
 pip install -r requirements.txt
 ```
-6. Once the installation is complete, you can start the web application by running the following command:
+7. Once the installation is complete, you can start the web application by running the following command:
 ```
 python src/app.py
 ```
-7. Open the index.html file located at the static folder and enjoy the usage.
+8. Open the index.html file located at the static folder and enjoy the usage.
 
 ## Test cases
 :D
