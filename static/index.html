@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Upload Video</title>
+</head>
+    <body>
+        <div class="container upload-container">
+            <h2 class="header">Upload Video</h2>
+                <div class="input-container">
+                    <input type="file" class="form-control-file" name="video">
+                    <button type="submit" class="btn btn-primary ml-2 js-upload">Upload</button>
+                </div>
+        </div>
+
+        <div class="container video-container d-none">
+            <video id="video" width="480" height="256" autoplay loop></video>
+            <p class="video-content js-video-text"><p>
+        </div>
+
+        <div class="back-sign js-back d-none">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M15 18l-6-6 6-6" />
+            </svg>
+        </div>
+
+        <div class="container js-spinner-container d-none">
+            <div class="spinner spinner-border text-primary" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+
+        <div class="error-container d-none">
+            <div class="message-container">
+                <p class="error-message"></p>
+            </div>
+        </div>
+    </body>
+</html>
