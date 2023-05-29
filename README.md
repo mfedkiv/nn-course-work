@@ -15,6 +15,7 @@ To install and run this project, follow these steps:
 python3 -m venv myenv
 myenv\Scripts\activate
 ```
+5. Download [CMake](https://cmake.org/download/) to ensure that all dependecies will work as expected.
 5. Install the project dependencies by running the following command:
 ```
 pip install -r requirements.txt
