@@ -54,6 +54,7 @@
     backBtn.addEventListener('click', () => {
         uploadContainer.classList.remove('d-none');
         videoContainer.classList.add('d-none');
+        errorContainer.classList.add('d-none');
 
         backBtn.classList.add('d-none');
     })
