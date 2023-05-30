@@ -19,7 +19,7 @@ def upload():
 
     video = request.files['video']
 
-    os.makedirs('temp')
+    os.makedirs('temp', exist_ok=True)
     video_path = os.path.join('temp', video.filename)
     video.save(video_path)
 
