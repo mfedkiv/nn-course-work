@@ -27,4 +27,23 @@ python src/app.py
 8. Open the index.html file located at the static folder and enjoy the usage.
 
 ## Test cases
-:D
+* https://github.com/mfedkiv/nn-course-work/assets/89789498/0512eff6-1a35-4780-8d02-42925fe23926
+
+  Predicted result: BIN BLUEE AT Q TWO PLEASE
+  
+  Expected result: BIN BLUE AT T NINE PLEASE
+  
+* https://github.com/mfedkiv/nn-course-work/assets/89789498/eeca6569-5557-410d-bb34-315c97f036de
+
+  Predicted result: SET BLUEE IN U TWO SOON
+  
+  Expected result: BIN BLUE AT L NINE NOW
+
+* https://github.com/mfedkiv/nn-course-work/assets/89789498/7c29ec44-45a2-4e8a-9f90-31e2f7ea6c2a
+
+  Predicted result: BINN WLUEE IN V FUER AGAIN 
+
+  Expected result: BIN BLUE AT V ZERO AGAIN
+
+## Model
+Model training, validation and assesment can be found in - https://github.com/nazarkohut/nn-course-work-vsr-models
